@@ -130,6 +130,9 @@ height:100%;
 color:orange;
 }
 
+
+
+
 #menu li a:hover/* style des liens de la 1ere liste quand la souris passe dessus */
 {
 
@@ -170,6 +173,7 @@ visibility:visible;
 /* !!!!! FIN MENU !!!!! */
 
 /* !!!!! DEBUT DU CORPS !!!!! */
+
 .cases1   /* gère le style de la 1ere case */
 { 
     float: left;
