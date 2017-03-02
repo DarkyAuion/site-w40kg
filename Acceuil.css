@@ -2,6 +2,9 @@ body
 {
 margin:0px;
 background-image:url(images/fond.jpg);
+width:100%;
+height:100%;
+padding:0;
 }
 /* !!!!! DEBUT MENU !!!!! */
 #titreprincipal
@@ -44,7 +47,6 @@ z-index:1;
  visibility:hidden;
  list-style:none;
  margin-left:-40px;
-
  z-index:2;
 
  }
@@ -72,7 +74,8 @@ z-index:1;
  #menu li li /* style de la 2nd liste */
  {
 background-color:#22427C;
-
+line-height:32px;
+height:32px;
  }
  
  #menu li li li  /* style de la 3eme liste */
@@ -82,12 +85,13 @@ background-color:#22427C;
  
  #menu li:hover  /* style de la 1ere liste quand la souris passe dessus */
 {
-background-color:#22427C;
+
+
 }
 
 #menu li li:hover /*style de la 2nd liste quand la souris passe dessus */
 {
-
+background-color:orange;
 
 }
 
@@ -101,6 +105,9 @@ background-color:#22427C;
 {
 text-decoration:none;
 color:white;
+display:block;
+width:100%;
+height:100%;
 }
 
 #menu li a /* style des liens de la 1ere liste */
@@ -120,7 +127,7 @@ color:white;
 
 #menu a:hover /* style liens du menu quand la souris passe dessus */ 
 {
-
+color:orange;
 }
 
 #menu li a:hover/* style des liens de la 1ere liste quand la souris passe dessus */
@@ -128,10 +135,14 @@ color:white;
 
 }
 
+
+
 #menu li li a:hover /* style des liens de la 2nd liste quand la souris passe dessus */
 {
-
+color:#0F9AEA;
 }
+
+
 
 #menu li li li a:hover /* style des liens de la 3eme liste quand la souris passe dessus */
 {
@@ -146,9 +157,8 @@ visibility:visible;
 #menu li:hover ul ul /* style du 2eme déroulant (3eme menu) quand la souris est sur le 1ere liste */
 {
 visibility:hidden;
-margin-top:-15px;
-margin-left:100px;
-margin-top:-64px;
+margin-left:130px;
+margin-top:-32px;
 
 }
 
@@ -160,8 +170,22 @@ visibility:visible;
 /* !!!!! FIN MENU !!!!! */
 
 /* !!!!! DEBUT DU CORPS !!!!! */
-.cases1 {
+.cases1   /* gère le style de la 1ere case */
+{ 
     float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid red;
+	background-color:white;
+	
+	
+}
+
+.cases2 /* gère le style de la 2eme case */
+{
+	float: left;
     margin: 5px;
     padding: 15px;
     max-width: 300px;
@@ -171,7 +195,8 @@ visibility:visible;
 	
 }
 
-.cases2
+
+.cases3 /* gère le style de la 3eme case */
 {
 	float: left;
     margin: 5px;
@@ -180,18 +205,7 @@ visibility:visible;
     height: 300px;
     border: 1px solid red;
 	background-color:white;
-}
-
-
-.cases3
-{
-	float: left;
-    margin: 5px;
-    padding: 15px;
-    max-width: 300px;
-    height: 300px;
-    border: 1px solid red;
-	background-color:white;
+	
 }
 
 /* !!!!! FIN DU CORPS !!!!! */
@@ -200,15 +214,51 @@ visibility:visible;
 
 #footer
 {
+margin:0;
 padding:0;
-margin:auto;
 width:100%;
 background-color:white;
 height:150px;
-margin-top:760px;
+margin-top:20.5%;
+position:fixed;
+}
+
+#p1
+{
+padding-top:100px;
+
 
 
 }
+
+#discord
+{
+height:50px;
+width:50px;
+margin-left:87%;
+}
+
+#yt
+{
+height:50px;
+width:50px;
+
+}
+
+#fbk
+{
+height:50px;
+width:50px;
+
+}
+
+#twitter
+{
+height:50px;
+width:50px;
+
+}
+
 
 /* !!!!! FIN DU FOOTER !!!!! */ 
 
