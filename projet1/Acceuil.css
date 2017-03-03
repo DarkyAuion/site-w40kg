@@ -1,7 +1,7 @@
 body
 {
 margin:0px;
-background-image:url(images/fond5.jpg); 
+background-image:url(images/fond5.jpg) center; 
 width:100%;
 height:100%;
 padding:0;
